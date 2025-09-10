@@ -1,0 +1,26 @@
+@media print { 
+    body * {
+        visibility: hidden;
+    }
+   #relatorio, #relatorio * {
+        visibility: visible;
+    }
+    #relatorio {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+body{
+    background-color: rgba(198,184,170,18);
+    color: rgba(53, 31, 17, 0.719);
+}
+header{
+    background-color: rgb(107, 92, 73);
+    height: 80px;
+    }
+    footer{
+    background-color: rgba(132,116,83,255);
+    height: 350px;
+}
